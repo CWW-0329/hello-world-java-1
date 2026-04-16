@@ -5,7 +5,7 @@ pipeline {
         JAVA_HOME = "C:\\Program Files\\Java\\jdk17"
         PATH = "${JAVA_HOME}\\bin;${env.PATH}"
     }
-
+// these are stages
     stages {
 
         stage('Verify Environment') {
